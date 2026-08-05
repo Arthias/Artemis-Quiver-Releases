@@ -1,0 +1,4 @@
+# Only versioned zips + README belong in this release repo
+*.log
+.DS_Store
+Thumbs.db
