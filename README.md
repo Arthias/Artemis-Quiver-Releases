@@ -23,6 +23,7 @@ Paste/import job postings → AI-powered match score against your profile, CV op
   - **Local**: LM Studio / Ollama on your machine, or
   - **WebLLM**: download a model that runs entirely in-browser (WebGPU), or
   - **Cloud**: OpenAI / Anthropic / Gemini API key.
+- The extension asks permission (once, per provider host) the first time it reaches a configured LLM endpoint outside localhost — grant it to enable match scoring.
 - The overlay works on LinkedIn and other configured job sites.
 
 ## Updating
